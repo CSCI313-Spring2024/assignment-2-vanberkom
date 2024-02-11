@@ -1,0 +1,59 @@
+
+table, td, tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    table-layout: fixed;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.column {
+    float: left;
+    height: 280px;
+}
+
+.column-title {
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid black;
+}
+
+.trio {
+    width: 33%;
+    font-size: 1.3em;
+    color: black;
+    border: 1px solid black;
+}
+
+.half-left {
+    width: 50%;
+    margin:auto;
+}
+
+.half-right {
+    width: 50%;
+    margin: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.car {
+    color: white;
+}
+
+.bio {
+    color: white;
+    width: 60%;
+}
+
+.pfp {
+    width: 40%;
+}

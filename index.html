@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luke's Website</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body style="background-color: #33475b">
+    <header>
+      <!--Navbar with different links to parts of the page-->
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Luke's Website</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"></li>
+            <li><a href="#career">Career Goals</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#movies">Hobbies, Movies, and Other Links</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--Bootstrap Title with name and Major-->
+    <div class="jumbotron text-center bisonback">
+      <h1>Luke Van Berkom</h1>
+      <p>NDSU Computer Science</p>
+      <img src="images/bison.png" alt="NDSU" height="200px" />
+    </div>
+
+    <br />
+    <!--Has my picture and adds a border-->
+    <div class="column half-left text-center pfp">
+      <img src="images/pfp.jpg" alt="Luke Van Berkom" height="300px" />
+    </div>
+
+    <!--Biography-->
+    <div class="bio column">
+      <div class="text-center">
+        <h2>Biography</h2>
+        <br />
+      </div>
+      <div>
+        <p>
+          Hello, my name is Luke Van Berkom and I'm currently a sophomore in
+          Computer Science. I was born in Washington before moving to Jamestown,
+          ND. I went to high school there playing basketball and football. I
+          took a cs class my sophomore year there and decided to become a cs
+          major off of that after picking up a little more coding during the
+          covid pandemic. That started my journey in coding and is what im still
+          doing to this day. Personally I enjoy running, reading, and hanging
+          out with friends as some of my main hobbies. I watch a couple of
+          sports if they are on and enjoy going to the bison football games when
+          they are playing at home.
+        </p>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+    <br /><br /><br /><br />
+    <br /><br /><br /><br />
+    <br /><br /><br />
+    <br /><br />
+    <!--Career Aspirations area-->
+    <div class="container car">
+      <div class="row">
+        <div class="">
+          <br />
+          <h2 id="career">Career Aspirations</h2>
+          <p>
+            My current career path is on a solid trajectory. I have a summer
+            internship with Collins Aerospace setup for this comming summer I
+            will be working with C++ there which will be a new experience and
+            new language that I need to learn the basics of before going there.
+            This internship will be an introduction to the backend of
+            programming where I can further my understanding of what I want to
+            end up doing with my career, I'll still have one more summer for
+            college where I can continue working back-end or switch to some
+            other type of job.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br />
+
+    <!--Start of the daily schedule table-->
+    <div style="background-color: white">
+      <div class="column-title">
+        <h2 id="schedule">Daily Schedule</h2>
+      </div>
+
+      <table width="100%">
+        <!--laying the column titles-->
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+        <tr>
+          <td>09:00-10:00</td>
+          <td>Sleep</td>
+          <td>Get Ready</td>
+          <td>Sleep</td>
+          <td>Get Ready</td>
+          <td>Sleep</td>
+        </tr>
+        <tr>
+          <td>10:00-11:00</td>
+          <td>Get Ready</td>
+          <td>Gym</td>
+          <td>Get Ready</td>
+          <td>Gym</td>
+          <td>Get Ready</td>
+        </tr>
+        <tr>
+          <td>11:00-12:00</td>
+          <td>Lunch</td>
+          <td>Lunch</td>
+          <td>Lunch</td>
+          <td>Lunch</td>
+          <td>Lunch</td>
+        </tr>
+        <tr>
+          <td>12:00-14:00</td>
+          <td>Campus</td>
+          <td>Campus</td>
+          <td>Campus</td>
+          <td>Campus</td>
+          <td>Campus</td>
+        </tr>
+        <tr>
+          <td>14:00-16:00</td>
+          <td>Gym/Run</td>
+          <td>Campus</td>
+          <td>Gym/Run</td>
+          <td>Campus</td>
+          <td>Gym/Run</td>
+        </tr>
+        <tr>
+          <td>16:00-17:00</td>
+          <td>Dinner</td>
+          <td>Dinner</td>
+          <td>Dinner</td>
+          <td>Dinner</td>
+          <td>Dinner</td>
+        </tr>
+      </table>
+      <br />
+      <br />
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <!--Movies section-->
+    <div class="column trio movie" style="background-color: yellow">
+      <div class="column-title">
+        <h3 id="movies">My Favorite Movies:</h3>
+      </div>
+      <br />
+      <ul>
+        <li>Interstellar</li>
+        <li>The Dark Knight</li>
+        <li>Gladiator</li>
+        <li>Get Out</li>
+        <li>Inception</li>
+        <li>Seven</li>
+        <li>The Great Outdoors</li>
+      </ul>
+    </div>
+
+    <!--Hobbies section-->
+    <div class="column trio hobby" style="background-color: green">
+      <div class="column-title">
+        <h3>My Top Hobbies:</h3>
+      </div>
+      <br />
+      <ol>
+        <li>Running</li>
+        <li>Lifting</li>
+        <li>Reading</li>
+        <li>Video Games</li>
+        <li>Basketball</li>
+        <li>TV Shows</li>
+      </ol>
+    </div>
+
+    <!--Other Links section-->
+    <div class="column trio sites" style="background-color: yellow">
+      <div class="column-title">
+        <h3>Other Sites</h3>
+      </div>
+      <br />
+      <ul>
+        <li><a href="https://www.youtube.com">Youtube</a></li>
+        <li><a href="https://www.chess.com">Chess</a></li>
+        <li><a href="https://www.amazon.com">Amazon</a></li>
+        <li><a href="https://www.netflix.com">Netflix</a></li>
+        <li><a href="https://www.espn.com">ESPN</a></li>
+      </ul>
+    </div>
+  </body>
+
+  <!--link to send user back to top-->
+  <footer>
+    <br />
+    <div class="text-center bio">
+      <br />
+      <h2><a href="#top">Back to Top ^</a></h2>
+    </div>
+  </footer>
+</html>
